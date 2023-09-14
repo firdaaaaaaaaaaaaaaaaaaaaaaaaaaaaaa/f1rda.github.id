@@ -1,0 +1,172 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #D7C0AE;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: fixed relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Copperplate, Papyrus, fantasy';
+    background: linear-gradient(90deg, #662549 0%, #c56578 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #9ED2BE;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: 30px;
+    display: flex;
+    margin-bottom:  50px; 
+}
+
+.kolom11{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 120px;
+    perspective-origin: 30;
+    text-align: center;
+}
+
+.kolom22{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.kolom33{
+    margin-top: 50px;
+}
+
+.kolom44{
+    margin-top: 50px;
+}
+
+img.kanan{
+    float: left;
+    width: 1080px;
+    height: 500px;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+
+img.kiri{
+    float: right;
+    width: 1080px;
+    height: 500px;
+}
+
+img.kiri{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.kolom .deskrripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ''Courier New', Courier, monospace';
+    color: #665A48;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    font-size: 45px  ;
+    color: #6649a5;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+p{
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#contact{
+    background-color: #5f772c ;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: auto;
+}
+
+.footer-section{
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #af8840;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+}
